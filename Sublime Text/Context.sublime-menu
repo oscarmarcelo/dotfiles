@@ -1,0 +1,19 @@
+[
+   {"caption" : "-"},
+    {
+      "id": "deprogn_aligntab",
+      "caption": "Align By",
+      "children": [
+          {
+          "caption" : "Left align :",
+          "command" : "align_tab",
+          "args"    : {"user_input" : "(?<=:) */lcl"}
+          },
+          {
+          "caption" : "Left align !",
+          "command" : "align_tab",
+          "args"    : {"user_input" : "!*/lc0lc0l"}
+          }
+      ]
+  }
+]
