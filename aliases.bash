@@ -4,3 +4,7 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 
 # Shortcuts
 alias server="cd ~/Dropbox/server"
+
+# Disable & Enable GateKeeper
+alias openGate="sudo spctl --master-disable"
+alias closeGate="sudo spctl --master-enable"
