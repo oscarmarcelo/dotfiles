@@ -1,0 +1,22 @@
+{
+    "editor.fontFamily": "FiraCode-Retina",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.renderWhitespace": "all",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.rulers": [
+        80
+    ],
+    "editor.lineHeight": 23,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "files.exclude": {
+        "node_modules": true
+    },
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.statusBar.feedback.visible": false,
+    "breadcrumbs.enabled": true,
+    "emmet.triggerExpansionOnTab": true,
+    "puglint.enable": true,
+    "xo.enable": true
+}
