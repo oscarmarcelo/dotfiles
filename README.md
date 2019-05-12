@@ -3,19 +3,26 @@
 
 ## Things I have here
 
- - bash
-  - aliases
- - git
+- Editors
+  - Sublime Text _(Not using anymore)_
+    - Preferences
+    - Package Control
+    - Context Menu
+  - VS Code
+    - Settings
+    - Snippets
+      - Comments
+  - `.editorconfig`
+- Git
   - `.gitignore`
- - Gulp
- - Sublime Text
-  - Preferences
-  - Package Control
-  - Context Menu
- - USB Overdrive
+- Gulp
+- Terminal
+  - Aliases
+  - Terminal theme
+- USB Overdrive
   - Sketch
   - Spotify
- - Wacom
+- Wacom
   - Bamboo Pad Preferences
   - Cintiq Companion Hybrid Preferences
 
