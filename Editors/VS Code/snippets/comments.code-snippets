@@ -1,35 +1,47 @@
 {
+	"Heading 1 Block Comment": {
+		"prefix": "/*1",
+		"scope": "sass,scss,js,javascript",
+		"body": [
+			"/**",
+			" * ========================================================",
+			" * $1",
+			" * ========================================================",
+			" */",
+			"$0",
+		],
+		"description": "Heading 1 Block Comment"
+	},
+	"Heading 2 Block Comment": {
+		"prefix": "/*2",
+		"scope": "sass,scss,js,javascript",
+		"body": [
+			"/* - $1",
+			" * ----------------------------",
+			" */",
+			"$0"
+		],
+		"description": "Heading 2 Block Comment"
+	},
 	"Heading 1 Comment": {
 		"prefix": "//1",
+		"scope": "sass,scss,js,javascript",
 		"body": [
 			"// ========================================================",
 			"// $1",
 			"// ========================================================",
-			"",
 			"$0"
 		],
 		"description": "Heading 1 Comment"
 	},
 	"Heading 2 Comment": {
 		"prefix": "//2",
+		"scope": "sass,scss,js,javascript",
 		"body": [
 			"// - $1",
 			"// ----------------------------",
 			"$0"
 		],
 		"description": "Heading 2 Comment"
-	},
-	"Heading 1 Block Comment": {
-		"prefix": "/*1",
-		"body": [
-			"/*",
-			" * ========================================================",
-			" * $1",
-			" * ========================================================",
-			" */",
-			"",
-			"$0"
-		],
-		"description": "Heading 1 Block Comment"
-	},
+	}
 }
