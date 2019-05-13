@@ -18,5 +18,38 @@
   "breadcrumbs.enabled": true,
   "emmet.triggerExpansionOnTab": true,
   "puglint.enable": true,
+  "todohighlight.include": [
+    "**/*.pug",
+    "**/*.sass",
+    "**/*.scss"
+  ],
+  "todohighlight.keywords": [
+    {
+      "text": "@todo",
+      "color": "#fff",
+      "backgroundColor": "#ffbd2a",
+      "overviewRulerColor": "rgba(255,189,42,0.8)"
+    },
+    {
+      "text": "@deprecated",
+      "color": "white",
+      "backgroundColor": "#d54e53",
+    },
+    {
+      "text": "DEPRECATED:",
+      "color": "white",
+      "backgroundColor": "#d54e53",
+    },
+    {
+      "text": "REVIEW:",
+      "color": "white",
+      "backgroundColor": "#e78c45",
+    },
+    {
+      "text": "HACK:",
+      "color": "white",
+      "backgroundColor": "#c397d8"
+    }
+  ],
   "xo.enable": true
 }
