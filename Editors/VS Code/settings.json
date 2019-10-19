@@ -2,26 +2,29 @@
   "editor.fontFamily": "FiraCode-Retina",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
-  "editor.renderWhitespace": "all",
+  "editor.renderWhitespace": "selection",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.rulers": [
-    80
+    80,
+    120
   ],
   "editor.lineHeight": 23,
   "diffEditor.ignoreTrimWhitespace": true,
   "files.exclude": {
-    "node_modules": true
+    "node_modules": true,
+    "package-lock.json": true
   },
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.statusBar.feedback.visible": false,
   "breadcrumbs.enabled": true,
+  "git.autofetch": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
   "emmet.triggerExpansionOnTab": true,
   "puglint.enable": true,
+  "xo.enable": true,
   "todohighlight.include": [
     "**/*.pug",
-    "**/*.sass",
-    "**/*.scss"
+    "**/*.sass"
   ],
   "todohighlight.keywords": [
     {
@@ -50,6 +53,5 @@
       "color": "white",
       "backgroundColor": "#c397d8"
     }
-  ],
-  "xo.enable": true
+  ]
 }
