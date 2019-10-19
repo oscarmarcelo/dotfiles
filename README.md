@@ -20,6 +20,7 @@
 - Terminal
   - Aliases
   - Terminal theme
+  - Global Node Packages
 - macOS
   - Keyboard Text Replacements
 - USB Overdrive
