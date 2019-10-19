@@ -12,6 +12,7 @@
     - Settings
     - Snippets
       - Comments
+    - Extensions
   - `.editorconfig`
 - Git
   - `.gitignore`
@@ -19,6 +20,8 @@
 - Terminal
   - Aliases
   - Terminal theme
+- macOS
+  - Keyboard Text Replacements
 - USB Overdrive
   - Sketch
   - Spotify
