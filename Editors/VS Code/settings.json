@@ -1,10 +1,9 @@
 {
-  "diffEditor.ignoreTrimWhitespace": true,
   "editor.fontFamily": "FiraCode-Retina",
   "editor.fontLigatures": true,
   "editor.lineHeight": 23,
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.renderWhitespace": "selection",
+  "editor.renderWhitespace": "boundary",
   "editor.rulers": [
     80,
     120
@@ -16,7 +15,6 @@
     "package-lock.json": true
   },
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "breadcrumbs.enabled": true,
   "git.autofetch": true,
   "emmet.triggerExpansionOnTab": true,
 
