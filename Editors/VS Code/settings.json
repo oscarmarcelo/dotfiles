@@ -1,24 +1,30 @@
 {
+  "diffEditor.ignoreTrimWhitespace": true,
   "editor.fontFamily": "FiraCode-Retina",
   "editor.fontLigatures": true,
-  "editor.renderWhitespace": "selection",
+  "editor.lineHeight": 23,
   "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderWhitespace": "selection",
   "editor.rulers": [
     80,
     120
   ],
-  "editor.lineHeight": 23,
-  "diffEditor.ignoreTrimWhitespace": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "vscode-icons",
   "files.exclude": {
     "node_modules": true,
     "package-lock.json": true
   },
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.iconTheme": "vscode-icons",
+  "terminal.integrated.shell.osx": "/bin/zsh",
   "breadcrumbs.enabled": true,
   "git.autofetch": true,
-  "terminal.integrated.shell.osx": "/bin/zsh",
   "emmet.triggerExpansionOnTab": true,
+
+
+  // ========================================================
+  // Extensions
+  // ========================================================
+
   "puglint.enable": true,
   "xo.enable": true,
   "todohighlight.include": [
@@ -35,17 +41,17 @@
     {
       "text": "@deprecated",
       "color": "white",
-      "backgroundColor": "#d54e53",
+      "backgroundColor": "#d54e53"
     },
     {
       "text": "DEPRECATED:",
       "color": "white",
-      "backgroundColor": "#d54e53",
+      "backgroundColor": "#d54e53"
     },
     {
       "text": "REVIEW:",
       "color": "white",
-      "backgroundColor": "#e78c45",
+      "backgroundColor": "#e78c45"
     },
     {
       "text": "HACK:",
