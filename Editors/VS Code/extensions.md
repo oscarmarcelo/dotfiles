@@ -19,3 +19,4 @@
 | [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) | `wix.vscode-import-cost` |
 | [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) | `zhuangtongfa.Material-theme` |
 | [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion) | `Zignd.html-css-class-completion` |
+| [GitHub Sharp Theme](https://github.com/joaomoreno/github-sharp-theme) | `joaomoreno.github-sharp-theme` |
