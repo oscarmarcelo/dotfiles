@@ -1,6 +1,6 @@
 {
-  "editor.fontFamily": "FiraCode-Retina",
-  "editor.fontLigatures": true,
+  "editor.fontFamily": "FiraCode-Retina, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": "'ss01', 'ss06'",
   "editor.lineHeight": 23,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.renderWhitespace": "boundary",
@@ -8,13 +8,17 @@
     80,
     120
   ],
-  "workbench.colorTheme": "One Dark Pro",
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "GitHub Sharp Dark",
   "workbench.iconTheme": "vscode-icons",
+  "files.eol": "\n",
   "files.exclude": {
     "node_modules": true,
     "package-lock.json": true
   },
-  "terminal.integrated.shell.osx": "/bin/zsh",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "emmet.triggerExpansionOnTab": true,
 
@@ -31,30 +35,82 @@
   ],
   "todohighlight.keywords": [
     {
+      "text": "TODO",
+      "color": "#fff",
+      "backgroundColor": "#ffbd2a",
+      "overviewRulerColor": "#ffbd2acc"
+    },
+    {
       "text": "@todo",
       "color": "#fff",
       "backgroundColor": "#ffbd2a",
-      "overviewRulerColor": "rgba(255,189,42,0.8)"
+      "overviewRulerColor": "#ffbd2acc"
     },
     {
-      "text": "@deprecated",
-      "color": "white",
-      "backgroundColor": "#d54e53"
+      "text": "FIXME",
+      "color": "#fff",
+      "backgroundColor": "#f06292",
+      "overviewRulerColor": "#f06292cc"
+    },
+    {
+      "text": "@fixme",
+      "color": "#fff",
+      "backgroundColor": "#f06292",
+      "overviewRulerColor": "#f06292cc"
     },
     {
       "text": "DEPRECATED:",
-      "color": "white",
-      "backgroundColor": "#d54e53"
+      "color": "#fff",
+      "backgroundColor": "#d54e53",
+      "overviewRulerColor": "#d54e53cc"
+    },
+    {
+      "text": "DEPRECATED",
+      "color": "#fff",
+      "backgroundColor": "#d54e53",
+      "overviewRulerColor": "#d54e53cc"
+    },
+    {
+      "text": "@deprecated",
+      "color": "#fff",
+      "backgroundColor": "#d54e53",
+      "overviewRulerColor": "#d54e53cc"
     },
     {
       "text": "REVIEW:",
-      "color": "white",
-      "backgroundColor": "#e78c45"
+      "color": "#fff",
+      "backgroundColor": "#e78c45",
+      "overviewRulerColor": "#e78c45cc"
+    },
+    {
+      "text": "REVIEW",
+      "color": "#fff",
+      "backgroundColor": "#e78c45",
+      "overviewRulerColor": "#e78c45cc"
+    },
+    {
+      "text": "@review",
+      "color": "#fff",
+      "backgroundColor": "#e78c45",
+      "overviewRulerColor": "#e78c45cc"
     },
     {
       "text": "HACK:",
-      "color": "white",
-      "backgroundColor": "#c397d8"
+      "color": "#fff",
+      "backgroundColor": "#c397d8",
+      "overviewRulerColor": "#c397d8cc"
+    },
+    {
+      "text": "HACK",
+      "color": "#fff",
+      "backgroundColor": "#c397d8",
+      "overviewRulerColor": "#c397d8cc"
+    },
+    {
+      "text": "@hack",
+      "color": "#fff",
+      "backgroundColor": "#c397d8",
+      "overviewRulerColor": "#c397d8cc"
     }
   ]
 }
