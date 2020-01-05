@@ -13,6 +13,7 @@
     - Snippets
       - Comments
     - Extensions
+    - Trusted Domains
   - `.editorconfig`
 - Git
   - `.gitignore`
