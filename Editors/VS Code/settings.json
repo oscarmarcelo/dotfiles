@@ -11,6 +11,7 @@
   "editor.tabSize": 2,
   "workbench.colorTheme": "GitHub Sharp Dark",
   "workbench.iconTheme": "vscode-icons",
+  "window.restoreWindows": "all",
   "files.eol": "\n",
   "files.exclude": {
     "node_modules": true,
