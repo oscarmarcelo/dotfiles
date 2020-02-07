@@ -9,9 +9,12 @@
     120
   ],
   "editor.tabSize": 2,
+  "window.autoDetectColorScheme": true,
   "workbench.colorTheme": "GitHub Sharp Dark",
   "workbench.iconTheme": "vscode-icons",
-  "window.restoreWindows": "all",
+  "workbench.preferredDarkColorTheme": "GitHub Sharp Dark",
+  "workbench.preferredLightColorTheme": "GitHub Sharp",
+  "workbench.settings.editor": "json",
   "files.eol": "\n",
   "files.exclude": {
     "node_modules": true,
