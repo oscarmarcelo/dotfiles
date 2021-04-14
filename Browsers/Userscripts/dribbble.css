@@ -1,0 +1,26 @@
+.shots-grid {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+/* Workshops and Hiring Menu Items */
+.site-nav-desktop-item:nth-child(2),
+.site-nav-desktop-item:nth-child(3),
+.site-nav-desktop-item:nth-child(4) {
+  display: none;
+}
+
+#stats .stats-mod.group::after {
+  position: static;
+}
+
+#stats .jqstooltip {
+ width: max-content !important;
+}
+
+@media (min-width: 920px) {
+  .shot-overlay .overlay-content {
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
