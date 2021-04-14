@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "FiraCode-Retina, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "FiraCode-Retina, 'SF Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": "'ss01', 'ss06'",
   "editor.lineHeight": 23,
   "editor.multiCursorModifier": "ctrlCmd",
@@ -8,21 +8,26 @@
     80,
     120
   ],
+  "editor.renderControlCharacters": true,
+  "editor.stickyTabStops": true,
   "editor.tabSize": 2,
   "window.autoDetectColorScheme": true,
+  "window.restoreWindows": "preserve",
   "workbench.colorTheme": "GitHub Sharp Dark",
-  "workbench.iconTheme": "vscode-icons",
+  // "workbench.iconTheme": "vscode-icons",
   "workbench.preferredDarkColorTheme": "GitHub Sharp Dark",
   "workbench.preferredLightColorTheme": "GitHub Sharp",
+  "workbench.productIconTheme": "fluent-icons",
   "workbench.settings.editor": "json",
   "files.eol": "\n",
   "files.exclude": {
-    "node_modules": true,
-    "package-lock.json": true
+    "**/node_modules": true,
+    "**/package-lock.json": true
   },
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
+  // VSCode isn't letting EditorConfig override this setting. See: https://github.com/editorconfig/editorconfig-vscode/issues/153
+  // "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
   "emmet.triggerExpansionOnTab": true,
 
@@ -34,8 +39,13 @@
   "puglint.enable": true,
   "xo.enable": true,
   "todohighlight.include": [
+    "**/*.html",
     "**/*.pug",
-    "**/*.sass"
+    "**/*.css",
+    "**/*.sass",
+    "**/*.scss",
+    "**/*.js",
+    "**/*.php"
   ],
   "todohighlight.keywords": [
     {
