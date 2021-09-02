@@ -1,16 +1,17 @@
 {
+  "editor.bracketPairColorization.enabled": true,
   "editor.fontFamily": "FiraCode-Retina, 'SF Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": "'ss01', 'ss06'",
   "editor.lineHeight": 23,
   "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "boundary",
   "editor.rulers": [
     80,
     120
   ],
-  "editor.renderControlCharacters": true,
-  "editor.stickyTabStops": true,
   "editor.tabSize": 2,
+  "editor.stickyTabStops": true,
   "window.autoDetectColorScheme": true,
   "window.restoreWindows": "preserve",
   "workbench.colorTheme": "GitHub Sharp Dark",
@@ -28,6 +29,9 @@
   "files.trimFinalNewlines": true,
   // VSCode isn't letting EditorConfig override this setting. See: https://github.com/editorconfig/editorconfig-vscode/issues/153
   // "files.trimTrailingWhitespace": true,
+  // Enable only when necessary to avoid increased memory consumption.
+  // "terminal.integrated.scrollback": 20000,
+  "terminal.integrated.tabs.enabled": false,
   "git.autofetch": true,
   "emmet.triggerExpansionOnTab": true,
 
