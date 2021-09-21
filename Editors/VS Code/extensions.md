@@ -26,3 +26,4 @@
 | [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) | `vscode-icons-team.vscode-icons` | ❌ |
 | [Vuln Cost - Security Scanner](https://marketplace.visualstudio.com/items?itemName=snyk-security.vscode-vuln-cost) | `snyk-security.vscode-vuln-cost` | ❌ |
 | [XO](https://marketplace.visualstudio.com/items?itemName=samverschueren.linter-xo) | `samverschueren.linter-xo` | ✅ |
+| [GitHub Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview) | `bierner.github-markdown-preview` | ✅ |
