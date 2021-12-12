@@ -11,6 +11,7 @@
 | [doiuse](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-doiuse) | `mrmlnc.vscode-doiuse` | ❌ |
 | [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) | `EditorConfig.EditorConfig` | ✅ |
 | [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) | `miguelsolorio.fluent-icons` | ✅ |
+| [GitHub Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview) | `bierner.github-markdown-preview` | ✅ |
 | [GitHub Sharp Theme](https://marketplace.visualstudio.com/items?itemName=joaomoreno.github-sharp-theme) | `joaomoreno.github-sharp-theme` | ✅ |
 | [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) | `github.github-vscode-theme` | ✅ |
 | [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) | `ecmel.vscode-html-css` | ❌ |
@@ -26,4 +27,3 @@
 | [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) | `vscode-icons-team.vscode-icons` | ❌ |
 | [Vuln Cost - Security Scanner](https://marketplace.visualstudio.com/items?itemName=snyk-security.vscode-vuln-cost) | `snyk-security.vscode-vuln-cost` | ❌ |
 | [XO](https://marketplace.visualstudio.com/items?itemName=samverschueren.linter-xo) | `samverschueren.linter-xo` | ✅ |
-| [GitHub Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview) | `bierner.github-markdown-preview` | ✅ |
