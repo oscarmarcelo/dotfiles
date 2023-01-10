@@ -1,8 +1,9 @@
 {
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": true,
+  "editor.fontFamily": "'Fira Code', 'SF Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": "'cv02', 'cv05', 'cv32', 'ss01', 'ss06'",
   "editor.guides.bracketPairs": true,
-  "editor.fontFamily": "FiraCode-Retina, 'SF Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": "'ss01', 'ss06'",
   "editor.lineHeight": 23,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.renderControlCharacters": true,
@@ -11,16 +12,16 @@
     80,
     120
   ],
-  "editor.tabSize": 2,
   "editor.stickyTabStops": true,
-  "window.autoDetectColorScheme": true,
-  "window.restoreWindows": "preserve",
-  "workbench.colorTheme": "GitHub Sharp Dark",
-  // "workbench.iconTheme": "vscode-icons",
-  "workbench.preferredDarkColorTheme": "GitHub Sharp Dark",
-  "workbench.preferredLightColorTheme": "GitHub Sharp",
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "GitHub Light Default",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.settings.editor": "json",
+  "workbench.startupEditor": "newUntitledFile",
+  "window.autoDetectColorScheme": true,
+  "window.restoreWindows": "preserve",
   "files.eol": "\n",
   "files.exclude": {
     "**/node_modules": true,
@@ -30,11 +31,17 @@
   "files.trimFinalNewlines": true,
   // VSCode isn't letting EditorConfig override this setting. See: https://github.com/editorconfig/editorconfig-vscode/issues/153
   // "files.trimTrailingWhitespace": true,
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "terminal.integrated.enableBell": true,
   // Enable only when necessary to avoid increased memory consumption.
   // "terminal.integrated.scrollback": 20000,
   "terminal.integrated.tabs.enabled": false,
-  "git.autofetch": true,
+  "telemetry.telemetryLevel": "off",
   "emmet.triggerExpansionOnTab": true,
+  "git.autofetch": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "samverschueren.linter-xo"
+  },
 
 
   // ========================================================
@@ -78,12 +85,6 @@
       "overviewRulerColor": "#f06292cc"
     },
     {
-      "text": "DEPRECATED:",
-      "color": "#fff",
-      "backgroundColor": "#d54e53",
-      "overviewRulerColor": "#d54e53cc"
-    },
-    {
       "text": "DEPRECATED",
       "color": "#fff",
       "backgroundColor": "#d54e53",
@@ -96,12 +97,6 @@
       "overviewRulerColor": "#d54e53cc"
     },
     {
-      "text": "REVIEW:",
-      "color": "#fff",
-      "backgroundColor": "#e78c45",
-      "overviewRulerColor": "#e78c45cc"
-    },
-    {
       "text": "REVIEW",
       "color": "#fff",
       "backgroundColor": "#e78c45",
@@ -112,12 +107,6 @@
       "color": "#fff",
       "backgroundColor": "#e78c45",
       "overviewRulerColor": "#e78c45cc"
-    },
-    {
-      "text": "HACK:",
-      "color": "#fff",
-      "backgroundColor": "#c397d8",
-      "overviewRulerColor": "#c397d8cc"
     },
     {
       "text": "HACK",

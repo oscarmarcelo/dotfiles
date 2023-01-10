@@ -10,9 +10,10 @@
 | [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) | `ms-azuretools.vscode-docker` | ❌ |
 | [doiuse](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-doiuse) | `mrmlnc.vscode-doiuse` | ❌ |
 | [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) | `EditorConfig.EditorConfig` | ✅ |
+| [EJS language support](https://marketplace.visualstudio.com/items?itemName=DigitalBrainstem.javascript-ejs-support) | `DigitalBrainstem.javascript-ejs-support` | ❌ |
 | [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) | `miguelsolorio.fluent-icons` | ✅ |
 | [GitHub Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview) | `bierner.github-markdown-preview` | ✅ |
-| [GitHub Sharp Theme](https://marketplace.visualstudio.com/items?itemName=joaomoreno.github-sharp-theme) | `joaomoreno.github-sharp-theme` | ✅ |
+| [GitHub Sharp Theme](https://marketplace.visualstudio.com/items?itemName=joaomoreno.github-sharp-theme) | `joaomoreno.github-sharp-theme` | ❌ |
 | [GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) | `github.github-vscode-theme` | ✅ |
 | [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css) | `ecmel.vscode-html-css` | ❌ |
 | [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) | `wix.vscode-import-cost` | ❌ |
@@ -20,9 +21,11 @@
 | [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | `davidanson.vscode-markdownlint` | ✅ |
 | [Min Theme](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.min-theme) | `miguelsolorio.min-theme` | ❌ |
 | [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) | `zhuangtongfa.Material-theme` | ❌ |
-| [puglint](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-puglint) | `mrmlnc.vscode-puglint` | ✅ |
+| [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker) | `neilbrayfield.php-docblocker` | ❌ |
+| [puglint](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-puglint) | `mrmlnc.vscode-puglint` | ❌ |
 | [Sass Lint](https://marketplace.visualstudio.com/items?itemName=glen-84.sass-lint) | `glen-84.sass-lint` | ❌ |
 | [Sass](https://marketplace.visualstudio.com/items?itemName=Syler.sass-indented) | `syler.sass-indented` | ✅ |
+| [tl;dr pages](https://marketplace.visualstudio.com/items?itemName=bmuskalla.vscode-tldr) | `bmuskalla.vscode-tldr` | ✅ |
 | [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) | `wayou.vscode-todo-highlight` | ✅ |
 | [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons) | `vscode-icons-team.vscode-icons` | ❌ |
 | [Vuln Cost - Security Scanner](https://marketplace.visualstudio.com/items?itemName=snyk-security.vscode-vuln-cost) | `snyk-security.vscode-vuln-cost` | ❌ |
