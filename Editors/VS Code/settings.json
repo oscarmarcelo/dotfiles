@@ -1,7 +1,9 @@
 {
+  "telemetry.telemetryLevel": "off",
   "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": true,
   "editor.bracketPairColorization.enabled": true,
-  "editor.fontFamily": "'Fira Code', 'SF Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'Fira Code', 'SF Mono', Menlo, Monaco, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": "'cv02', 'cv05', 'cv32', 'ss01', 'ss06'",
   "editor.guides.bracketPairs": true,
   "editor.lineHeight": 23,
@@ -14,6 +16,7 @@
   ],
   "editor.stickyTabStops": true,
   "editor.tabSize": 2,
+  "workbench.activityBar.location": "top",
   "workbench.colorTheme": "GitHub Light Default",
   "workbench.preferredDarkColorTheme": "GitHub Dark Dimmed",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
@@ -30,13 +33,18 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   // VSCode isn't letting EditorConfig override this setting. See: https://github.com/editorconfig/editorconfig-vscode/issues/153
-  // "files.trimTrailingWhitespace": true,
-  "javascript.updateImportsOnFileMove.enabled": "prompt",
-  "terminal.integrated.enableBell": true,
+  "files.trimTrailingWhitespace": true,
   // Enable only when necessary to avoid increased memory consumption.
   // "terminal.integrated.scrollback": 20000,
-  "terminal.integrated.tabs.enabled": false,
-  "telemetry.telemetryLevel": "off",
+  "accessibility.signals.terminalBell": {
+    "sound": "on"
+  },
+  "accessibility.signals.terminalCommandFailed": {
+    "sound": "on",
+  },
+  "accessibility.signals.terminalCommandSucceeded": {
+    "sound": "on",
+  },
   "emmet.triggerExpansionOnTab": true,
   "git.autofetch": true,
   "[javascript]": {
@@ -44,12 +52,12 @@
   },
 
 
+
   // ========================================================
   // Extensions
   // ========================================================
 
-  "puglint.enable": true,
-  "xo.enable": true,
+  "template-string-converter.autoRemoveTemplateString": true,
   "todohighlight.include": [
     "**/*.html",
     "**/*.pug",
@@ -62,63 +70,50 @@
   "todohighlight.keywords": [
     {
       "text": "TODO",
+      "regex": {
+        "pattern": "TODO(?=:)|@todo"
+      },
       "color": "#fff",
       "backgroundColor": "#ffbd2a",
-      "overviewRulerColor": "#ffbd2acc"
-    },
-    {
-      "text": "@todo",
-      "color": "#fff",
-      "backgroundColor": "#ffbd2a",
-      "overviewRulerColor": "#ffbd2acc"
+      "overviewRulerColor": "#ffbd2acc",
     },
     {
       "text": "FIXME",
-      "color": "#fff",
-      "backgroundColor": "#f06292",
-      "overviewRulerColor": "#f06292cc"
-    },
-    {
-      "text": "@fixme",
+      "regex": {
+        "pattern": "FIXME(?=:)|@fixme"
+      },
       "color": "#fff",
       "backgroundColor": "#f06292",
       "overviewRulerColor": "#f06292cc"
     },
     {
       "text": "DEPRECATED",
-      "color": "#fff",
-      "backgroundColor": "#d54e53",
-      "overviewRulerColor": "#d54e53cc"
-    },
-    {
-      "text": "@deprecated",
+      "regex": {
+        "pattern": "DEPRECATED(?=:)|@deprecated"
+      },
       "color": "#fff",
       "backgroundColor": "#d54e53",
       "overviewRulerColor": "#d54e53cc"
     },
     {
       "text": "REVIEW",
-      "color": "#fff",
-      "backgroundColor": "#e78c45",
-      "overviewRulerColor": "#e78c45cc"
-    },
-    {
-      "text": "@review",
+      "regex": {
+        "pattern": "REVIEW(?=:)|@review"
+      },
       "color": "#fff",
       "backgroundColor": "#e78c45",
       "overviewRulerColor": "#e78c45cc"
     },
     {
       "text": "HACK",
+      "regex": {
+        "pattern": "HACK(?=:)|@hack"
+      },
       "color": "#fff",
       "backgroundColor": "#c397d8",
       "overviewRulerColor": "#c397d8cc"
     },
-    {
-      "text": "@hack",
-      "color": "#fff",
-      "backgroundColor": "#c397d8",
-      "overviewRulerColor": "#c397d8cc"
-    }
-  ]
+  ],
+  "todohighlight.toggleURI":true,
+  "xo.enable": true,
 }

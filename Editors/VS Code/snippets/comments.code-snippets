@@ -1,7 +1,7 @@
 {
   "Heading 1 Block Comment": {
     "prefix": "/*1",
-    "scope": "css,sass,scss,js,javascript",
+    "scope": "css,sass,scss,js,javascript,php",
     "body": [
       "/*",
       " * =============================================================================",
@@ -15,7 +15,7 @@
   },
   "Heading 2 Block Comment": {
     "prefix": "/*2",
-    "scope": "css,sass,scss,js,javascript",
+    "scope": "css,sass,scss,js,javascript,php",
     "body": [
       "/* $1",
       " * -----------------------------------------------------------------------------",
@@ -26,7 +26,7 @@
   },
   "Heading 1 Comment": {
     "prefix": "//1",
-    "scope": "sass,scss,js,javascript",
+    "scope": "sass,scss,js,javascript,php",
     "body": [
       "// =============================================================================",
       "// $1",
@@ -38,7 +38,7 @@
   },
   "Heading 2 Comment": {
     "prefix": "//2",
-    "scope": "sass,scss,js,javascript",
+    "scope": "sass,scss,js,javascript,php",
     "body": [
       "// $1",
       "// -----------------------------------------------------------------------------",
