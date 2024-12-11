@@ -70,7 +70,7 @@
   },
   "Heading 1 Hash Comment": {
     "prefix": "//1",
-    "scope": "gitignore,gitattributes,dockerignore,editorconfig,env,template",
+    "scope": "gitignore,gitattributes,dockerignore,editorconfig,env,template,zshrc",
     "body": [
       "# ==============================================================================",
       "# $1",
@@ -82,7 +82,7 @@
   },
   "Heading 2 Hash Comment": {
     "prefix": "//2",
-    "scope": "gitignore,gitattributes,dockerignore,editorconfig,env,template",
+    "scope": "gitignore,gitattributes,dockerignore,editorconfig,env,template,zshrc",
     "body": [
       "# $1",
       "# ------------------------------------------------------------------------------",
